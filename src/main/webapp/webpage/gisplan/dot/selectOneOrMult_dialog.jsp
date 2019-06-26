@@ -1,12 +1,15 @@
-<%@ page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" import="java.util.*"
+	contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="/context/mytags.jsp"%>
 <!DOCTYPE html>
 <html>
 <head>
 <title>网点列表</title>
 <t:base type="jquery,easyui"></t:base>
-<script type="text/javascript" src="${webRoot}/static/js/gisplan/common.js"></script>
-<script type="text/javascript" src="${webRoot}/static/js/gisplan/dot/selectOneOrMult_dialog.js"></script>
+<script type="text/javascript"
+	src="${webRoot}/static/js/gisplan/common.js"></script>
+<script type="text/javascript"
+	src="${webRoot}/static/js/gisplan/dot/selectOneOrMult_dialog.js"></script>
 <link rel="stylesheet" href="${webRoot}/static/style/css/commcon.css">
 </head>
 <body>

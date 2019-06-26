@@ -1,18 +1,21 @@
-<%@ page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" import="java.util.*"
+	contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="/context/mytags.jsp"%>
 <!DOCTYPE html>
 <html>
 <head>
 <title>网点详情</title>
 <t:base type="jquery,easyui,tools,bdmap"></t:base>
-<script type="text/javascript" src="${webRoot}/static/js/gisplan/dot/register_detail.js"></script>
+<script type="text/javascript"
+	src="${webRoot}/static/js/gisplan/dot/register_detail.js"></script>
 <link rel="stylesheet" href="${webRoot}/static/style/css/commcon.css">
 </head>
 <body style="width: 98%;">
 	<!-- 网点详情 -->
 	<div>
 		<h3 class="lrq">网点信息</h3>
-		<table style="width: 100%;" cellpadding="0" cellspacing="1" class="viewtable">
+		<table style="width: 100%;" cellpadding="0" cellspacing="1"
+			class="viewtable">
 			<tbody>
 				<tr>
 					<th><label>编号</label></th>

@@ -110,8 +110,8 @@
 				<tr>
 					<td align="right"><label class="Validform_label">
 							上传风格模板: </label></td>
-					<td class="value"><t:upload id="templateZip"
-							buttonText="浏览文件" multi="false" name="templateZip"
+					<td class="value"><t:upload id="templateZip" buttonText="浏览文件"
+							multi="false" name="templateZip"
 							uploader="cgformTemplateController.do?uploadZip"
 							onUploadSuccess="uploadZipSuccess" extend="*.zip;*.rar"></t:upload>
 						<div class="form" id="filediv"></div> <span

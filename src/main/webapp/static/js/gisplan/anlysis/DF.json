@@ -1,6 +1,20 @@
 {
-  "type": "FeatureCollection",
-  "features": [
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "登封市"
+			},
+			"geometry": 
+	[
+		{
+			"type": "Feature",
+			"properties": {
+				"name": "登封市"
+			},
+			"geometry": 
+	[
     {
       "type": "Feature",
       "properties": {

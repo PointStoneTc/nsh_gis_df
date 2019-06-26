@@ -1,13 +1,16 @@
-<%@ page language="java" import="java.util.*" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" import="java.util.*"
+	contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@include file="/context/mytags.jsp"%>
 <!DOCTYPE html>
 <html>
 <head>
 <title>大屏展示</title>
 <t:base type="jquery,easyui,tools,DatePicker,validform"></t:base>
-<script type="text/javascript" src="${webRoot}/plug-in/echart/echarts.js"></script>
+<script type="text/javascript"
+	src="${webRoot}/plug-in/echart/echarts.js"></script>
 <script src="${webRoot}/plug-in/echart/theme/vintage.js"></script>
-<script type="text/javascript" src="${webRoot}/static/js/gisplan/anlysis/bigscreen_index.js"></script>
+<script type="text/javascript"
+	src="${webRoot}/static/js/gisplan/anlysis/bigscreen_index.js"></script>
 <link rel="stylesheet" href="${webRoot}/static/style/css/commcon.css">
 </head>
 <style type="text/css">
