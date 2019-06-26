@@ -1,0 +1,139 @@
+.viewtable {
+	background-color: #ddd;
+}
+
+h3.lrq {
+	font-size: 12px;
+	padding: 5px 0;
+	margin-right: 10px;
+}
+
+h3.lrq::before {
+	content: "\5B";
+	margin-right: 5px;
+}
+
+h3.lrq::after {
+	content: "\5D";
+	margin-left: 5px;
+}
+
+/**
+ *普通表单布局
+ */
+.viewtable tr {
+	background-color: #f5f5f5;
+}
+
+.viewtable th {
+	text-align: right;
+	width: 90px !important;
+}
+
+.viewtable th label {
+	padding: 2px 5px;
+	font-weight: normal;
+	color: #4761f0;
+}
+
+.viewtable th label::after {
+	content: ':';
+}
+
+.viewtable td {
+	padding: 2px 5px;
+	background-color: #ffffff;
+}
+
+.viewtable td span {
+	text-align: right;
+}
+
+.split {
+	width: 100%;
+	height: 10px;
+	border-bottom-width: thin;
+	border-bottom-style: dashed;
+	margin: 10px 0px;
+}
+
+.blue_line {
+	border-bottom-color: #0080ff;
+}
+
+.orange_line {
+	border-bottom-color: #e3a62a;
+}
+
+/**
+ *列表查询工具栏布局
+ */
+.queryToolbarTable {
+	
+}
+
+.queryToolbarTable th {
+	padding: 0 5px;
+}
+
+.queryToolbarTable td {
+	padding: 0 5px;
+}
+
+.queryToolbarTable .borderLeft {
+	border-left: 1px solid #d7d7d7;;
+}
+
+.queryToolbarTable .borderRight {
+	border-right: 1px solid #d7d7d7;
+}
+
+.rmb {
+	color: red;
+}
+
+.rmb::before {
+	content: '￥';
+	margin-right: 5px;
+}
+
+.rate::after {
+	content: '%';
+	margin-left: 5px;
+}
+
+.circle {
+	width: 32px;
+	height: 32px;
+	border-radius: 25%;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 32px;
+	text-align: center;
+	background: #4671D5;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.required_sign::before {
+	content: '*';
+	padding-right: 3px;
+	color: #ff0000;
+}
+
+.inputLocked {
+	background-color: #787878 !important;
+	border: 1px solid #787878 !important;
+	color: #ffffff;
+}
+
+.gray {
+	color: #b7b7b7;
+}
+
+.map {
+	border: 1px solid #ddd;
+	width: 100%;
+	height: 300px;
+}
